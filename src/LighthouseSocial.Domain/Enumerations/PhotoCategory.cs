@@ -3,7 +3,7 @@ using LighthouseSocial.Domain.Common;
 
 namespace LighthouseSocial.Domain.Enumerations;
 
-public class PhotoCategory : EnumerationBase
+public sealed class PhotoCategory : EnumerationBase
 {
     public static readonly PhotoCategory Sunset = new(1, "Sunset");
     public static readonly PhotoCategory Historical = new(2, "Historical");
